@@ -49,7 +49,7 @@ var mytable = function(obj){
     function model_action(){
         var html = "<div class=\"ace-settings-container\" id=\"ace-settings-container\">"+
             "    <div class=\"btn btn-app btn-xs btn-warning ace-settings-btn "+open+"\" id=\"ace-settings-btn\">"+
-            "        <i class=\"icon-cog bigger-150\"></i>"+
+            "        icon"+
             "    </div>"+
             "    <div class=\"ace-settings-box "+open+"\" id=\"ace-settings-box\">"+
             option+
