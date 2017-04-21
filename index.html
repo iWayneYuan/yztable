@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="bootstrap.min.css"  rel='stylesheet' />
+    <link href="ace.min.css"  rel='stylesheet'/>
+</head>
+
+<body>
+<table class="ace-table" id="test">
+    <tr>
+        <th>id</th>
+        <th show="false">姓名</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>袁召</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>小兔子</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>wayne</td>
+        <td>23</td>
+    </tr>
+</table>
+
+</body>
+<script src="jquery-3.1.0.min.js"></script>
+<script src="ace.js"></script>
+<script>
+    $(function(){
+        mytable({
+            selector:'#test',//选择器
+            open:true,//是否展开
+        });
+    })
+</script>
+</html>
