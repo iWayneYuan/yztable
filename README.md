@@ -2,14 +2,14 @@
 超简单可自定义html table 列 显示隐藏的jquery插件
 
 ###引入资源文件
-jquery版本无要求
-
-    <link href="./assets/css/bootstrap.min.css"  rel='stylesheet' />
-    <link href="./assets/css/ace.min.css"  rel='stylesheet'/>
-    <script src="./assets/js/jquery-3.1.0.min.js"></script>
-	 <script src="./assets/js/ace.js"></script>
-	 
-	 
+####jquery版本无要求
+```html
+<link href="./assets/css/bootstrap.min.css"  rel='stylesheet'/>
+<link href="./assets/css/ace.min.css"  rel='stylesheet'/>
+<script src="./assets/js/jquery-3.1.0.min.js"></script>
+<script src="./assets/js/ace.js"></script>
+```
+	
 ###使用
 ####html代码
 ```html
